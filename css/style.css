@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .jumbotron{
   margin-bottom: 0;
   background-color: lightblue;
@@ -19,7 +24,7 @@
 }
 
 .media img{
-  height: 150px;
+  height: 175px;
   width: 150px;
 }
 
@@ -28,10 +33,49 @@
   height: 500px;
 }
 
+/* creating space between footer and cards */
 .card{
   margin-bottom: 100px
 }
 
 .card img{
   height: 250px;
+}
+
+.Banner{
+  padding: 100px 0;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.navigation{
+  display: flex;
+  padding: 15px 10px;
+  background-color: dodgerblue;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: lightgrey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border: 3px;
+}
+
+.navigation a:hover{
+  background-color: indigo;
+  color: white;
+  transition: 0.8s ease;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+#footer-nav{
+  background-color: dimgrey;
 }
