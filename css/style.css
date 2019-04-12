@@ -4,8 +4,34 @@
 
 .jumbotron{
   margin-bottom: 0;
+  background-color: lightblue;
+  text-align: center;
 }
 
 .work-heading{
   text-align: center;
+}
+
+.navbar-nav a:hover{
+  background-color: indigo;
+  color: white;
+  transition: 0.8s ease;
+}
+
+.media img{
+  height: 150px;
+  width: 150px;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 500px;
+}
+
+.card{
+  margin-bottom: 100px
+}
+
+.card img{
+  height: 250px;
 }
